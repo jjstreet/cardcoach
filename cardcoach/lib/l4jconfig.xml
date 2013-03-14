@@ -1,0 +1,39 @@
+<launch4jConfig>
+  <dontWrapJar>true</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>cardcoach.jar</jar>
+  <outfile>..\deploy\cardcoach.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <manifest></manifest>
+  <icon>cardcoach.ico</icon>
+  <singleInstance>
+    <mutexName>Card Coach MUTEX Single Instance</mutexName>
+    <!--
+        <windowTitle>Card Coach</windowTitle>
+  	-->
+  </singleInstance>
+  <jre>
+    <path></path>
+    <minVersion>1.6.0</minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+  </jre>
+  <versionInfo>
+    <fileVersion>5.0.0.0</fileVersion>
+    <txtFileVersion>5.0.0</txtFileVersion>
+    <fileDescription>Card Coach Launcher</fileDescription>
+    <copyright>General Dynamics Land Systems</copyright>
+    <productVersion>5.0.0.0</productVersion>
+    <txtProductVersion>5.0.0</txtProductVersion>
+    <productName>Card Coach Timecard Utility</productName>
+    <companyName>General Dynamics Land Systems</companyName>
+    <internalName>cardcoach</internalName>
+    <originalFilename>cardcoach.exe</originalFilename>
+  </versionInfo>
+</launch4jConfig>

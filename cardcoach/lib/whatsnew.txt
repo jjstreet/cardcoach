@@ -1,0 +1,259 @@
+WHATS NEW:
+
+5.1.2       RELEASED        2011-08-04
+- Fixed null pointer crash where selecting a work directive with more than
+  one available account after one with just one available account did not
+  disable the start entry buttons.
+- Modified work directive number rules to allow for "@" symbols to be used.
+
+5.1.1       RELEASED        2011-03-23
+- Fixed null pointer crash when updating a time sheet entry.
+
+5.1.0       RELEASED        2011-02-10
+- Fixed null pointer crash when deleting an entry from a time sheet and the
+  time sheet has no entries in it afterwards.
+- Changed "Total Time" to "Charged Time".
+- Added additional counter called "Not Charged" that tracks amount of time in
+  day thats not charged to a work directive.
+    
+5.0.1       RELEASED        2011-01-27
+- Fixed a bug where updating the start time of a running entry past the current
+  time, could cause Card Coach to crash.
+
+5.0.0       RELEASED        2011-01-12
+- Complete redesign. This version is brand new and supports many new features:
+    - Updated UI with better access to work directive editing
+    - Accounts are no longer locked and are specific to the type of employee
+      that is using card coach.
+    - Lost time is now entered just like any other charge.
+    - Edit multiple work directives in one editor.
+    - Time sheets from previous days can now be updated.
+    - Overhauled preferences area that organizes preferences in specific
+      groups.
+    - Time may be entered at future times within the day.
+    - Custom built clocks for selecting and editing time.
+    - More robust splitting of time sheet entries.
+
+4.0.3      RELEASED        2010-11-22
+- Fixed a bug that caused a crash when clicking a copy button that was tied to
+  a text field containing a zero-length string. 
+
+4.0.2       RELEASED        2010-11-12
+- Fixed bug that caused the work directive dialog to show the next week account
+  for both next week and current week fields.
+
+4.0.1       RELEASED        2010-11-08
+- Fixed split time not using the selected entry's starting time as the lower.
+  bound.
+- Fixed update time sheet allowing start times that are in the future.
+
+4.0.0       RELEASED        2010-10-21
+- Fixed a major bug in the time sheet entry dialog where the program would
+  crash when trying to insert an entry.
+- Introduced some major backend refactoring and new code to make it easier to
+  handle internal resources like the work directive library and time sheets.
+  
+3.6.1       RELEASED        2010-10-14
+- Fixed a bug where selecting a work directive via the search dialog did
+  not enable the start entry buttons.
+  
+3.6.0       RELEASED        2010-10-14
+- Users may now added notes to each entry
+- Entries may now be put in suspense if the work directive allows for it
+- Entries may now be updated while they are currently running. However, they
+  may not be stopped from the update window.
+- Extensive rewriting of some older code structures for better usability and
+  maintenance.
+- Introduced some new features in the work directive and time sheet xml file
+  formats to store information about suspense and notes.
+- Most of the dialogs now have a more consistent style.
+- In addition to the work directive drop-down, a search button is now available
+  to view the work directive details when selecting what to charge.
+- All text fields should have the select-all keyboard shortcut working
+  correctly, even ones that can not be edited.
+
+3.5.4       RELEASED        2010-10-07
+- Added additional formatting to the time entries table. Table now displays the
+  title of the work directive in addition to the number.
+
+3.5.3       RELEASED        2010-10-06
+- Adjusted colors of tables and tabs for better legibility.
+- Edited some tool tips for better readability.
+
+3.5.2       RELEASED        2010-10-05
+- Added numerous application tool tips
+- Changed some alert messages and confirmations to be more precise.
+- Added link to change log in about dialog.
+- Changed interaction of the preferences manager with work directive library
+  to remove some internal dependencies.
+  
+3.5.1       RELEASED        2010-10-01
+- Fixed a serious bug that allowed a user to post time into the future manually.
+- Added help and about icons
+
+3.5.0       RELEASED        2010-09-30
+- Added a help system.
+- Fixed an error where a time sheet that was never saved before could not be
+  saved before updating the application.
+
+3.4.3
+- Added more icons to the time entries drop down menu.
+
+3.4.2       RELEASED        2010-09-29
+- Reworked shell sizing by removing widthHints from the layout.
+
+3.4.1       RELEASED        2010-09-28
+- Cleaned up work directives dialog and added icons to some menu items.
+
+3.4.0       RELEASED        2010-09-28
+- Added dialog for viewing work directive details. The menu item "View Work
+  Work Directives..." is now active.
+
+3.3.1       RELEASED        2010-09-28
+- Changed how the end of day notification works to make it pop at the correct
+  time.
+
+3.3.0       RELEASED        2010-09-18
+- Adjusted the time card tab to scroll only the hours breakdown portion of
+  the tab.
+- Corrected some incorrectly labeled fields (personal time should be lost time,
+  etc.)
+- Added new menu bar area called "Audit". User can now export the currently
+  loaded time sheet as a text file formatted to be given to an auditor.
+  Contains all necessary information to be counted as a valid charge log for
+  the day.
+- Save dialogs now act completely like a normal windows application.
+  
+3.2.1       RELEASED        2010-09-17
+- Adjusted how timesheet instantiation works internally
+- Program now starts up with a blank card.
+  
+3.2.0       RELEASED        2010-09-16
+- Fixed bug where time sheets saved with negative personal time could not be
+  loaded.
+- Removed the "View Time Card" button from the total hours group.
+- Added a tabbed interface to flip between the time sheet view and the time
+  card view.
+  
+3.1.1       RELEASED        2010-09-15
+- Balloon popup for end-of-day notification now pops 6 minutes before 9/8 hours
+  is reached.
+- Added ability to check for updates. User can be notified on program start-up
+  or check manually via "Help" => "Check for Updates". User is prompted to save
+  unsaved work and the installer will start automatically.
+
+3.0.2       RELEASED        2010-09-15
+- Fixed balloon pop-up not taking into account gaps of time for things like
+  lunch. Function now operates off Projected Calculated time.
+
+3.0.1       RELEASED        2010-09-15
+- Corrected file menu behavior. "Save" is only enabled when a time sheet is
+  loaded and has changed. "Save As" is only enabled when a time sheet is
+  loaded.
+
+3.0.0       RELEASED        2010-09-15
+- Switched save/open functionality to save/save as/open functionality.
+- User is now prompted for confirmation if overwriting an existing time sheet.
+- User is now only prompted for confirmation during open/new/exit events if
+  there's a time sheet loaded and it has changed since load.
+- New icon set. Uses icons from the Eclipse project, with some tweaks.
+- Updated the time card dialog to show total hours.
+- Fixed bug where opening a time sheet or starting a new one, would not reset
+  the split time spinner's enabled state correctly.
+- Added borders to the tables for better clarity.
+- Card coach is now run from exe launcher program. However, javaw.exe is still
+- Added a new preference that enables/disables notification when a user reaches
+  the normal 9 or 8 hours in a day.
+
+2.1.1       RELEASED        2010-09-01
+- Fixed bug where stored preferences had incorrect paths that included unneeded
+  forward-slashes in their paths.
+- Implemented an installer.
+
+2.1.0       RELEASED        2010-08-31
+- Fixed not saving the name of the file that was last opened or saved.
+- Fixed accelerator key command for saving.
+- Added graphical icons to many of the file menus and application buttons.
+- Added time sheet statistics to the tray icon tool tip text.
+
+2.0.0       RELEASED        2010-08-30
+- Complete reorganization of internal GUI code. Each section of the main GUI is
+  now it's own widget extended from Composite. A full set of custom Events and
+  Listeners pass internal control events up through to these Composites. The
+  main application shell is now ~600 lines of code smaller and a bit easier to
+  read/understand.
+- Added a preferences manager class to facilitate updates to the program
+  preferences. This will allow preferences to be updated from an XML source in
+  the future should the program lose access to the backing store. Preferences
+  are also only loaded and save to the backing store on program startup and
+  exit, respectively.
+- Fixed a few bugs related to hours calculations where selecting certain sets
+  of personal time and split time options/amounts would cause NullPointer
+  errors to crop up.
+
+1.0.0       RELEASED        2010-08-26
+- Program now has a name: Card Coach. This release is the first official
+  release of the program.
+
+
+0.3.4       RELEASED        2010-08-26
+- Fixed minor bug where stop entry buttons were still active after a user
+  deletes an open running time entry.
+- Fixed bug where selecting an entry from the last entries table would put the
+  cross charge in the task code field and vice versa
+- Fixed a bug where the entered task code was put in the entry's cross charge
+  field when the user used the "start entry now" button.
+
+0.3.3       RELEASED        2010-08-26  
+- Updated the time card hours view to show additional information so that it
+  could be used as a sort of log for auditing purposes.
+- Started standardizing dialog control layouts among the dialogs.
+- Corrected minor layout problems and change a few labels to be more clear in
+  their meanings.
+
+0.3.2       RELEASED        2010-08-25  
+- Fixed a bug where updating the cross charge department field in any window
+  would not update or set a time entry's cross charge property.
+
+0.3.1       RELEASED        2010-08-25
+- Fixed some bugs that were preventing time entries from combining with like
+  time entries.
+
+0.3.0       RELEASED        2010-08-25
+- Made task codes optional.
+- Added additional field to the time entries--cross charge. This field is also
+  optional. Time calculations use it and the task code to further differentiate
+  charging.
+- Updated layout to facilitate the additional column in both the last entries
+  table and time entries table.
+- Update the time sheet entry dialog to include options to edit the cross
+  charge field.
+
+0.2.0       RELEASED        2010-08-25  
+- Added context menu and dialog to the entry table that allows the user to select
+  a time entry to update or delete it. User can also insert a new entry above
+  it or split its time between itself and another entry.
+
+0.1.4       RELEASED        2010-08-23
+- Removed useless preferences fields for user's name.
+- Reorganized preferences window slightly for better usability.
+- Fixed selecting "Exit" from the task tray pop-up menu not actually exiting
+  the program while it was visible and not minimized.
+- Added ability to select multiple work directives to the favorites list by
+  holding "CTRL" while selecting ones to add.
+- Minor tweaks to time entry dialog to make it more consistent in style to the
+  other dialog messages.
+
+0.1.3       RELEASED        2010-08-23
+- Corrected a NullPointerException thrown when both personal time and split
+  time was entered for the day due to personal time not being included in the
+  rounding routines.
+
+0.1.2       RELEASED        2010-08-23
+- Corrected a serious bug in the hours calculation. Time is now rounded at the
+  end first by split time, then by total time.
+- Fixed the "Add New Work Directive" menu selection not notifying the user the
+  directive was added or updating the work directive drop-down field.
+
+0.1.1		RELEASED		2010-08-23
+- Initial versioned beta release

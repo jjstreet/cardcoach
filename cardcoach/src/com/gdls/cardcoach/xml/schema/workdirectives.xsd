@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+		targetNamespace="workdirectives.xsd"
+		xmlns:acc="account.xsd"
+		xmlns:wd="workdirectives.xsd"
+		elementFormDefault="qualified"
+		attributeFormDefault="unqualified">
+	<xsd:import namespace="account.xsd" schemaLocation="account.xsd" />
+	<xsd:element name="workdirectives" type="wd:workDirectiveList" />
+	<xsd:element name="workdirective" type="wd:workDirectiveElement" />
+	<xsd:complexType name="workDirectiveList">
+		<xsd:sequence>
+			<xsd:element name="workdirective" type="wd:workDirectiveElement" minOccurs="0" maxOccurs="unbounded" />
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="workDirectiveElement">
+		<xsd:all>
+			<xsd:element name="number" minOccurs="1" maxOccurs="1" type="wd:workDirectiveNumber" />
+			<xsd:element name="accounts" minOccurs="1" maxOccurs="1" type="wd:accountList" />
+			<xsd:element name="description" minOccurs="1" maxOccurs="1" type="xsd:token" />
+			<xsd:element name="suspensenumber" minOccurs="0" maxOccurs="1" type="wd:workDirectiveNumber" />
+		</xsd:all>
+	</xsd:complexType>
+	<xsd:simpleType name="workDirectiveNumber">
+		<xsd:restriction base="xsd:token">
+			<xsd:pattern value="[A-Z0-9@]{10}" />
+		</xsd:restriction>
+	</xsd:simpleType>
+	<xsd:complexType name="accountList">
+		<xsd:sequence>
+			<xsd:element ref="acc:account" minOccurs="1" maxOccurs="unbounded" />
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:schema>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+		targetNamespace="timesheet.xsd"
+		xmlns:ts="timesheet.xsd"
+		xmlns:acc="account.xsd"
+		xmlns:wd="workdirectives.xsd"
+		xmlns:emp="employee.xsd"
+		elementFormDefault="qualified"
+		attributeFormDefault="unqualified">
+	<xsd:import namespace="employee.xsd" schemaLocation="employee.xsd" />
+	<xsd:import namespace="workdirectives.xsd" schemaLocation="workdirectives.xsd" />
+	<xsd:import namespace="account.xsd" schemaLocation="account.xsd" />
+	<xsd:element name="timesheet" type="ts:timesheetElement" />
+	<xsd:complexType name="timesheetElement">
+		<xsd:all>
+			<xsd:element name="date" type="xsd:date" minOccurs="1" maxOccurs="1" />
+			<xsd:element ref="emp:employee" minOccurs="1" maxOccurs="1" />
+			<xsd:element name="entries" type="ts:timesheetentriesList" minOccurs="1" maxOccurs="1" />
+		</xsd:all>
+	</xsd:complexType>
+	<xsd:complexType name="timesheetentriesList">
+		<xsd:sequence>
+			<xsd:element name="splittime" minOccurs="0" maxOccurs="1">
+				<xsd:simpleType>
+					<xsd:restriction base="xsd:string">
+						<xsd:pattern value="[0-9]*\.?[0-9]?" />
+					</xsd:restriction>
+				</xsd:simpleType>
+			</xsd:element>
+			<xsd:element name="entry" type="ts:timesheetentryElement" minOccurs="1" maxOccurs="unbounded"  />
+		</xsd:sequence>
+	</xsd:complexType>
+	<xsd:complexType name="timesheetentryElement">
+		<xsd:all>
+			<xsd:element ref="wd:workdirective" minOccurs="1" maxOccurs="1" />
+			<xsd:element name="crosscharge" minOccurs="1" maxOccurs="1" type="xsd:token" />
+			<xsd:element name="taskcode" minOccurs="1" maxOccurs="1" type="xsd:token" />
+			<xsd:element name="starttime" minOccurs="1" maxOccurs="1" type="xsd:dateTime" />
+			<xsd:element name="endtime" minOccurs="0" maxOccurs="1" type="xsd:dateTime" />
+			<xsd:element name="note" minOccurs="0" maxOccurs="1" type="xsd:string" />
+		</xsd:all>
+		<xsd:attribute name="suspense" type="xsd:boolean" use="optional" />
+	</xsd:complexType>
+</xsd:schema>

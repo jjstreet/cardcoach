@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+		targetNamespace="account.xsd"
+		xmlns:acc="account.xsd"
+		elementFormDefault="qualified"
+		attributeFormDefault="unqualified">
+	<xsd:element name="account" type="acc:accountElement" />
+	<xsd:complexType name="accountElement">
+		<xsd:all>
+			<xsd:element name="number" minOccurs="1" maxOccurs="1">
+				<xsd:simpleType>
+					<xsd:restriction base="xsd:token">
+						<xsd:enumeration value="BEREAVEMENT 91161" />
+						<xsd:enumeration value="BU SCHEDULED SHORT WORK WEEK 91195" />
+						<xsd:enumeration value="BU UNSCHEDULED SHORT WORK WEEK 91191" />
+						<xsd:enumeration value="COMM ACTIVITY 90140" />
+						<xsd:enumeration value="CONTRACT LABOR PAID LOST TIME" />
+						<xsd:enumeration value="DCI 90120" />
+						<xsd:enumeration value="DCI FLEX TIME 90120" />
+						<xsd:enumeration value="DCI OVT PAID 90120" />
+						<xsd:enumeration value="DCI SHIFT 2 90120" />
+						<xsd:enumeration value="DCI SHIFT 2 FLEX TIME 90120" />
+						<xsd:enumeration value="DCI SHIFT 2 OVT PAID 90120" />
+						<xsd:enumeration value="DIR 72100" />
+						<xsd:enumeration value="DIR 72500" />
+						<xsd:enumeration value="DIR FLEX TIME 72100" />
+						<xsd:enumeration value="DIR OVT PAID 72100" />
+						<xsd:enumeration value="DIR SHIFT 2 72100" />
+						<xsd:enumeration value="DIR SHIFT 2 72500" />
+						<xsd:enumeration value="DIR SHIFT 2 FLEX TIME 72100" />
+						<xsd:enumeration value="DIR SHIFT 2 OVT PAID 72100" />
+						<xsd:enumeration value="DIR SHIFT 3 72100" />
+						<xsd:enumeration value="DIR SHIFT 3 72500" />
+						<xsd:enumeration value="EXPN CONTL 90474" />
+						<xsd:enumeration value="EXPN CONTL UNALLOW 9047X" />
+						<xsd:enumeration value="EXPN SHIFT 2 OVT PAID 90130" />
+						<xsd:enumeration value="EXPN UNALLOW 9013X" />
+						<xsd:enumeration value="EXPN UNALLOW FLEX TIME 9013X" />
+						<xsd:enumeration value="EXPN UNALLOW SHIFT 2 9013X" />
+						<xsd:enumeration value="EXPNWO 90130" />
+						<xsd:enumeration value="EXPNWO FLEX TIME 90130" />
+						<xsd:enumeration value="EXPNWO SHIFT 2 90130" />
+						<xsd:enumeration value="EXPNWO SHIFT 2 FLEX TIME 60130" />
+						<xsd:enumeration value="HOLIDAY 91120" />
+						<xsd:enumeration value="ILLNESS FAMILY 91155" />
+						<xsd:enumeration value="ILLNESS INJURY 91150" />
+						<xsd:enumeration value="INDIRECT 90100" />
+						<xsd:enumeration value="INDIRECT FLEX TIME 90100" />
+						<xsd:enumeration value="INDIRECT OVT PAID 90100" />
+						<xsd:enumeration value="INDIRECT SHIFT 2 90100" />
+						<xsd:enumeration value="INDIRECT SHIFT 2 FLEX TIME 90100" />
+						<xsd:enumeration value="INDIRECT SHIFT 3 90100" />
+						<xsd:enumeration value="JURY DUTY 91160" />
+						<xsd:enumeration value="MEDICAL 91180" />
+						<xsd:enumeration value="MILITARY PAY 91162" />
+						<xsd:enumeration value="OTHER LOST TIME 91170" />
+						<xsd:enumeration value="PERSONAL PAID 91110" />
+						<xsd:enumeration value="PERSONAL PD 91110" />
+						<xsd:enumeration value="SICK 91100" />
+						<xsd:enumeration value="TARDINESS 91140" />
+						<xsd:enumeration value="TRAINING 90110" />
+						<xsd:enumeration value="TRAINING 90130" />
+						<xsd:enumeration value="TRAINING SHIFT 2 90110" />
+						<xsd:enumeration value="UNALLOW LABOR 9010X" />
+						<xsd:enumeration value="UNION BUSINESS 90150" />
+						<xsd:enumeration value="UNION BUSINESS FLEX TIME 90150" />
+						<xsd:enumeration value="UNPD DISCIPLINE SUSP 92175" />
+						<xsd:enumeration value="UNPD ILLNESS FAMILY 92155" />
+						<xsd:enumeration value="UNPD ILLNESS INJURY 92150" />
+						<xsd:enumeration value="UNPD LOA 92105" />
+						<xsd:enumeration value="UNPD NEW HIRE TERM SEP 92100" />
+						<xsd:enumeration value="UNPD OTHER LOST TIME 92170" />
+						<xsd:enumeration value="UNPD PERSONAL 92110" />
+						<xsd:enumeration value="UNPD SALARY UNION BUSINESS 92160" />
+						<xsd:enumeration value="UNPD TARDINESS 92140" />
+						<xsd:enumeration value="VACATION 91130" />
+					</xsd:restriction>
+				</xsd:simpleType>
+			</xsd:element>
+			<xsd:element name="numbernextweek" minOccurs="1" maxOccurs="1">
+				<xsd:simpleType>
+					<xsd:restriction base="xsd:token">
+						<xsd:enumeration value="BEREAVE NEXT WEEK 91161" />
+						<xsd:enumeration value="BEREAVEMENT NEXT WEEK 91161" />
+						<xsd:enumeration value="BU SCHEDULED SHORT WORK WEEK 91195" />
+						<xsd:enumeration value="BU UNSCHEDULED SHORT WORK WEEK 91191" />
+						<xsd:enumeration value="COMM ACT NEXT WEEK 90140" />
+						<xsd:enumeration value="COMM ACTIVITY NEXT WEEK 90140" />
+						<xsd:enumeration value="CONTRACT LABOR PAID LOST TIME NEXT WEEK 91175" />
+						<xsd:enumeration value="DCI FLEX TIME NEXT WEEK 90120" />
+						<xsd:enumeration value="DCI NEXT WEEK 90120" />
+						<xsd:enumeration value="DCI OVT PAID 90120" />
+						<xsd:enumeration value="DCI SHIFT 2 FLEX TIME NEXT WEEK 90120" />
+						<xsd:enumeration value="DCI SHIFT 2 NEXT WEEK 90120" />
+						<xsd:enumeration value="DCI SHIFT 2 OVT PAID 90120" />
+						<xsd:enumeration value="DIR FLEX TIME NEXT WEEK 72100" />
+						<xsd:enumeration value="DIR NEXT WEEK 72100" />
+						<xsd:enumeration value="DIR NEXT WEEK 72500" />
+						<xsd:enumeration value="DIR OVT PAID 72100" />
+						<xsd:enumeration value="DIR SHFT 2 NEXT WEEK 72500" />
+						<xsd:enumeration value="DIR SHIFT 2 FLEX TIME NEXT WEEK 72100" />
+						<xsd:enumeration value="DIR SHIFT 2 NEXT WEEK 72100" />
+						<xsd:enumeration value="DIR SHIFT 2 OVT PAID 72100" />
+						<xsd:enumeration value="DIR SHIFT 3 NEXT WEEK 72100" />
+						<xsd:enumeration value="DIR SHIFT 3 NEXT WEEK 72500" />
+						<xsd:enumeration value="EXPN CONTL NEXT WEEK 90474" />
+						<xsd:enumeration value="EXPN CONTL UNALLOW NEXT WEEK 9047X" />
+						<xsd:enumeration value="EXPN SHIFT 2 OVT PAID 90130" />
+						<xsd:enumeration value="EXPN UNALLOW FLEX TIME NEXT WEEK 9013X" />
+						<xsd:enumeration value="EXPN UNALLOW NEXT WEEK 9013X" />
+						<xsd:enumeration value="EXPN UNALLOW SHIFT 2 NEXT WEEK 9013X" />
+						<xsd:enumeration value="EXPNWO FLEX TIME NEXT WEEK 90130" />
+						<xsd:enumeration value="EXPNWO NEXT WEEK 90130" />
+						<xsd:enumeration value="EXPNWO SHIFT 2 FLEX TIME NEXT WEEK 60130" />
+						<xsd:enumeration value="EXPNWO SHIFT 2 NEXT WEEK 90130" />
+						<xsd:enumeration value="HOLIDAY NEXT WEEK 91120" />
+						<xsd:enumeration value="ILLNESS FAMILY NEXT WEEK 91155" />
+						<xsd:enumeration value="ILLNESS INJURY NEXT WEEK 91150" />
+						<xsd:enumeration value="INDIRECT FLEX TIME NEXT WEEK 90100" />
+						<xsd:enumeration value="INDIRECT NEXT WEEK 90100" />
+						<xsd:enumeration value="INDIRECT OVT PAID NEXT WEEK 90100" />
+						<xsd:enumeration value="INDIRECT SHIFT 2 FLEX TIME NEXT WEEK 90100" />
+						<xsd:enumeration value="INDIRECT SHIFT 2 NEXT WEEK 90100" />
+						<xsd:enumeration value="INDIRECT SHIFT 3 NEXT WEEK 90100" />
+						<xsd:enumeration value="JURY DUTY NEXT WEEK 91160" />
+						<xsd:enumeration value="MEDICAL NEXT WEEK 91180" />
+						<xsd:enumeration value="MILITARY PAY NEXT WEEK 91162" />
+						<xsd:enumeration value="OTHER LOST TIME NEXT WEEK 91170" />
+						<xsd:enumeration value="PERSONAL PD NEXT WEEK 91110" />
+						<xsd:enumeration value="SICK NEXT WEEK 91100" />
+						<xsd:enumeration value="TARDINESS NEXT WEEK 91140" />
+						<xsd:enumeration value="TRAINING NEXT WEEK 90110" />
+						<xsd:enumeration value="TRAINING NEXT WEEK 90130" />
+						<xsd:enumeration value="TRAINING SHIFT 2 NEXT WEEK 90110" />
+						<xsd:enumeration value="UNALLOW LAB NEXT WEEK 9010X" />
+						<xsd:enumeration value="UNALLOW LABOR NEXT WEEK 9010X" />
+						<xsd:enumeration value="UNION BUS NEXT WEEK 90150" />
+						<xsd:enumeration value="UNION BUSINESS NEXT WEEK FLEX TIME 90150" />
+						<xsd:enumeration value="UNPD DISCIPLINE SUSP NEXT WEEK 92175" />
+						<xsd:enumeration value="UNPD ILLNESS FAMILY 92155 NEXT WEEK" />
+						<xsd:enumeration value="UNPD ILLNESS INJURY 92150 NEXT WEEK" />
+						<xsd:enumeration value="UNPD LOA NEXT WEEK 92105" />
+						<xsd:enumeration value="UNPD NEW HIRE TERM SEP 92100" />
+						<xsd:enumeration value="UNPD NEW HIRE TERM SEP NEXT WEEK 92100" />
+						<xsd:enumeration value="UNPD OTHER LOST TIME 92170" />
+						<xsd:enumeration value="UNPD OTHER LOST TIME NEXT WEEK 92170" />
+						<xsd:enumeration value="UNPD PERSONAL 92110" />
+						<xsd:enumeration value="UNPD PERSONAL NEXT WEEK 92110" />
+						<xsd:enumeration value="UNPD SAL UNION BUS NEXT WEEK 92160" />
+						<xsd:enumeration value="UNPD TARDINESS 92140" />
+						<xsd:enumeration value="UNPD TARDINESS NEXT WEEK 92140" />
+						<xsd:enumeration value="VACATION NEXT WEEK 91130" />
+					</xsd:restriction>
+				</xsd:simpleType>
+			</xsd:element>
+		</xsd:all>
+		<xsd:attribute name="employee" use="required">
+			<xsd:simpleType>
+				<xsd:restriction base="xsd:token">
+					<xsd:enumeration value="DIRECT" />
+					<xsd:enumeration value="UNION" />
+					<xsd:enumeration value="CONTRACTOR" />
+				</xsd:restriction>
+			</xsd:simpleType>
+		</xsd:attribute>
+		<xsd:attribute name="selected" use="optional">
+			<xsd:simpleType>
+				<xsd:restriction base="xsd:token">
+					<xsd:enumeration value="selected" />
+				</xsd:restriction>
+			</xsd:simpleType>
+		</xsd:attribute>
+	</xsd:complexType>		
+</xsd:schema>

@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<wd:workdirectives xmlns:wd="workdirectives.xsd">
+<wd:workdirective>
+<wd:number>INDIRECTWO</wd:number>
+<wd:accounts>
+<acc:account employee="DIRECT" xmlns:acc="account.xsd">
+<acc:number>BEREAVEMENT 91161</acc:number>
+<acc:numbernextweek>BEREAVEMENT NEXT WEEK 91161</acc:numbernextweek>
+</acc:account>
+<acc:account employee="DIRECT" xmlns:acc="account.xsd">
+<acc:number>COMM ACTIVITY 90140</acc:number>
+<acc:numbernextweek>COMM ACTIVITY NEXT WEEK 90140</acc:numbernextweek>
+</acc:account>
+<acc:account employee="DIRECT" xmlns:acc="account.xsd">
+<acc:number>DCI 90120</acc:number>
+<acc:numbernextweek>DCI NEXT WEEK 90120</acc:numbernextweek>
+</acc:account>
+<acc:account employee="DIRECT" xmlns:acc="account.xsd">
+<acc:number>DCI SHIFT 2 90120</acc:number>
+<acc:numbernextweek>DCI SHIFT 2 NEXT WEEK 90120</acc:numbernextweek>
+</acc:account>
+<acc:account employee="DIRECT" xmlns:acc="account.xsd">
+<acc:number>EXPN UNALLOW 9013X</acc:number>
+<acc:numbernextweek>EXPN UNALLOW NEXT WEEK 9013X</acc:numbernextweek>
+</acc:account>
+<acc:account employee="DIRECT" xmlns:acc="account.xsd">
+<acc:number>EXPNWO 90130</acc:number>
+<acc:numbernextweek>EXPNWO NEXT WEEK 90130</acc:numbernextweek>
+</acc:account>
+<acc:account employee="DIRECT" xmlns:acc="account.xsd">
+<acc:number>EXPNWO SHIFT 2 90130</acc:number>
+<acc:numbernextweek>EXPNWO SHIFT 2 NEXT WEEK 90130</acc:numbernextweek>
+</acc:account>
+<acc:account employee="DIRECT" xmlns:acc="account.xsd">
+<acc:number>HOLIDAY 91120</acc:number>
+<acc:numbernextweek>HOLIDAY NEXT WEEK 91120</acc:numbernextweek>
+</acc:account>
+<acc:account employee="DIRECT" xmlns:acc="account.xsd">
+<acc:number>INDIRECT SHIFT 2 90100</acc:number>
+<acc:numbernextweek>INDIRECT SHIFT 2 NEXT WEEK 90100</acc:numbernextweek>
+</acc:account>
+<acc:account employee="DIRECT" xmlns:acc="account.xsd">
+<acc:number>INDIRECT SHIFT 3 90100</acc:number>
+<acc:numbernextweek>INDIRECT SHIFT 3 NEXT WEEK 90100</acc:numbernextweek>
+</acc:account>
+<acc:account employee="DIRECT" xmlns:acc="account.xsd">
+<acc:number>JURY DUTY 91160</acc:number>
+<acc:numbernextweek>JURY DUTY NEXT WEEK 91160</acc:numbernextweek>
+</acc:account>
+<acc:account employee="DIRECT" xmlns:acc="account.xsd">
+<acc:number>MEDICAL 91180</acc:number>
+<acc:numbernextweek>MEDICAL NEXT WEEK 91180</acc:numbernextweek>
+</acc:account>
+<acc:account employee="DIRECT" xmlns:acc="account.xsd">
+<acc:number>MILITARY PAY 91162</acc:number>
+<acc:numbernextweek>MILITARY PAY NEXT WEEK 91162</acc:numbernextweek>
+</acc:account>
+<acc:account employee="DIRECT" xmlns:acc="account.xsd">
+<acc:number>OTHER LOST TIME 91170</acc:number>
+<acc:numbernextweek>OTHER LOST TIME NEXT WEEK 91170</acc:numbernextweek>
+</acc:account>
+<acc:account employee="DIRECT" xmlns:acc="account.xsd">
+<acc:number>PERSONAL PD 91110</acc:number>
+<acc:numbernextweek>PERSONAL PD NEXT WEEK 91110</acc:numbernextweek>
+</acc:account>
+<acc:account employee="DIRECT" xmlns:acc="account.xsd">
+<acc:number>SICK 91100</acc:number>
+<acc:numbernextweek>SICK NEXT WEEK 91100</acc:numbernextweek>
+</acc:account>
+<acc:account employee="DIRECT" xmlns:acc="account.xsd">
+<acc:number>UNALLOW LABOR 9010X</acc:number>
+<acc:numbernextweek>UNALLOW LABOR NEXT WEEK 9010X</acc:numbernextweek>
+</acc:account>
+<acc:account employee="DIRECT" xmlns:acc="account.xsd">
+<acc:number>UNPD DISCIPLINE SUSP 92175</acc:number>
+<acc:numbernextweek>UNPD DISCIPLINE SUSP NEXT WEEK 92175</acc:numbernextweek>
+</acc:account>
+<acc:account employee="DIRECT" xmlns:acc="account.xsd">
+<acc:number>UNPD LOA 92105</acc:number>
+<acc:numbernextweek>UNPD LOA NEXT WEEK 92105</acc:numbernextweek>
+</acc:account>
+<acc:account employee="DIRECT" xmlns:acc="account.xsd">
+<acc:number>UNPD NEW HIRE TERM SEP 92100</acc:number>
+<acc:numbernextweek>UNPD NEW HIRE TERM SEP NEXT WEEK 92100</acc:numbernextweek>
+</acc:account>
+<acc:account employee="DIRECT" xmlns:acc="account.xsd">
+<acc:number>UNPD OTHER LOST TIME 92170</acc:number>
+<acc:numbernextweek>UNPD OTHER LOST TIME NEXT WEEK 92170</acc:numbernextweek>
+</acc:account>
+<acc:account employee="DIRECT" xmlns:acc="account.xsd">
+<acc:number>UNPD PERSONAL 92110</acc:number>
+<acc:numbernextweek>UNPD PERSONAL NEXT WEEK 92110</acc:numbernextweek>
+</acc:account>
+<acc:account employee="DIRECT" xmlns:acc="account.xsd">
+<acc:number>UNPD TARDINESS 92140</acc:number>
+<acc:numbernextweek>UNPD TARDINESS NEXT WEEK 92140</acc:numbernextweek>
+</acc:account>
+<acc:account employee="DIRECT" xmlns:acc="account.xsd">
+<acc:number>VACATION 91130</acc:number>
+<acc:numbernextweek>VACATION NEXT WEEK 91130</acc:numbernextweek>
+</acc:account>
+<acc:account employee="UNION" xmlns:acc="account.xsd">
+<acc:number>BEREAVEMENT 91161</acc:number>
+<acc:numbernextweek>BEREAVE NEXT WEEK 91161</acc:numbernextweek>
+</acc:account>
+<acc:account employee="UNION" xmlns:acc="account.xsd">
+<acc:number>COMM ACTIVITY 90140</acc:number>
+<acc:numbernextweek>COMM ACT NEXT WEEK 90140</acc:numbernextweek>
+</acc:account>
+<acc:account employee="UNION" xmlns:acc="account.xsd">
+<acc:number>DCI 90120</acc:number>
+<acc:numbernextweek>DCI NEXT WEEK 90120</acc:numbernextweek>
+</acc:account>
+<acc:account employee="UNION" xmlns:acc="account.xsd">
+<acc:number>DCI FLEX TIME 90120</acc:number>
+<acc:numbernextweek>DCI FLEX TIME NEXT WEEK 90120</acc:numbernextweek>
+</acc:account>
+<acc:account employee="UNION" xmlns:acc="account.xsd">
+<acc:number>DCI OVT PAID 90120</acc:number>
+<acc:numbernextweek>DCI OVT PAID 90120</acc:numbernextweek>
+</acc:account>
+<acc:account employee="UNION" xmlns:acc="account.xsd">
+<acc:number>DCI SHIFT 2 90120</acc:number>
+<acc:numbernextweek>DCI SHIFT 2 NEXT WEEK 90120</acc:numbernextweek>
+</acc:account>
+<acc:account employee="UNION" xmlns:acc="account.xsd">
+<acc:number>DCI SHIFT 2 FLEX TIME 90120</acc:number>
+<acc:numbernextweek>DCI SHIFT 2 FLEX TIME NEXT WEEK 90120</acc:numbernextweek>
+</acc:account>
+<acc:account employee="UNION" xmlns:acc="account.xsd">
+<acc:number>DCI SHIFT 2 OVT PAID 90120</acc:number>
+<acc:numbernextweek>DCI SHIFT 2 OVT PAID 90120</acc:numbernextweek>
+</acc:account>
+<acc:account employee="UNION" xmlns:acc="account.xsd">
+<acc:number>EXPN SHIFT 2 OVT PAID 90130</acc:number>
+<acc:numbernextweek>EXPN SHIFT 2 OVT PAID 90130</acc:numbernextweek>
+</acc:account>
+<acc:account employee="UNION" xmlns:acc="account.xsd">
+<acc:number>EXPN UNALLOW 9013X</acc:number>
+<acc:numbernextweek>EXPN UNALLOW NEXT WEEK 9013X</acc:numbernextweek>
+</acc:account>
+<acc:account employee="UNION" xmlns:acc="account.xsd">
+<acc:number>EXPN UNALLOW FLEX TIME 9013X</acc:number>
+<acc:numbernextweek>EXPN UNALLOW FLEX TIME NEXT WEEK 9013X</acc:numbernextweek>
+</acc:account>
+<acc:account employee="UNION" xmlns:acc="account.xsd">
+<acc:number>EXPN UNALLOW SHIFT 2 9013X</acc:number>
+<acc:numbernextweek>EXPN UNALLOW SHIFT 2 NEXT WEEK 9013X</acc:numbernextweek>
+</acc:account>
+<acc:account employee="UNION" xmlns:acc="account.xsd">
+<acc:number>EXPNWO 90130</acc:number>
+<acc:numbernextweek>EXPNWO NEXT WEEK 90130</acc:numbernextweek>
+</acc:account>
+<acc:account employee="UNION" xmlns:acc="account.xsd">
+<acc:number>EXPNWO FLEX TIME 90130</acc:number>
+<acc:numbernextweek>EXPNWO FLEX TIME NEXT WEEK 90130</acc:numbernextweek>
+</acc:account>
+<acc:account employee="UNION" xmlns:acc="account.xsd">
+<acc:number>EXPNWO SHIFT 2 90130</acc:number>
+<acc:numbernextweek>EXPNWO SHIFT 2 NEXT WEEK 90130</acc:numbernextweek>
+</acc:account>
+<acc:account employee="UNION" xmlns:acc="account.xsd">
+<acc:number>EXPNWO SHIFT 2 FLEX TIME 60130</acc:number>
+<acc:numbernextweek>EXPNWO SHIFT 2 FLEX TIME NEXT WEEK 60130</acc:numbernextweek>
+</acc:account>
+<acc:account employee="UNION" xmlns:acc="account.xsd">
+<acc:number>HOLIDAY 91120</acc:number>
+<acc:numbernextweek>HOLIDAY NEXT WEEK 91120</acc:numbernextweek>
+</acc:account>
+<acc:account employee="UNION" xmlns:acc="account.xsd">
+<acc:number>ILLNESS FAMILY 91155</acc:number>
+<acc:numbernextweek>ILLNESS FAMILY NEXT WEEK 91155</acc:numbernextweek>
+</acc:account>
+<acc:account employee="UNION" xmlns:acc="account.xsd">
+<acc:number>ILLNESS INJURY 91150</acc:number>
+<acc:numbernextweek>ILLNESS INJURY NEXT WEEK 91150</acc:numbernextweek>
+</acc:account>
+<acc:account employee="UNION" xmlns:acc="account.xsd">
+<acc:number>INDIRECT 90100</acc:number>
+<acc:numbernextweek>INDIRECT NEXT WEEK 90100</acc:numbernextweek>
+</acc:account>
+<acc:account employee="UNION" xmlns:acc="account.xsd">
+<acc:number>INDIRECT FLEX TIME 90100</acc:number>
+<acc:numbernextweek>INDIRECT FLEX TIME NEXT WEEK 90100</acc:numbernextweek>
+</acc:account>
+<acc:account employee="UNION" xmlns:acc="account.xsd">
+<acc:number>INDIRECT OVT PAID 90100</acc:number>
+<acc:numbernextweek>INDIRECT OVT PAID NEXT WEEK 90100</acc:numbernextweek>
+</acc:account>
+<acc:account employee="UNION" xmlns:acc="account.xsd">
+<acc:number>INDIRECT SHIFT 2 90100</acc:number>
+<acc:numbernextweek>INDIRECT SHIFT 2 NEXT WEEK 90100</acc:numbernextweek>
+</acc:account>
+<acc:account employee="UNION" xmlns:acc="account.xsd">
+<acc:number>INDIRECT SHIFT 2 FLEX TIME 90100</acc:number>
+<acc:numbernextweek>INDIRECT SHIFT 2 FLEX TIME NEXT WEEK 90100</acc:numbernextweek>
+</acc:account>
+<acc:account employee="UNION" xmlns:acc="account.xsd">
+<acc:number>JURY DUTY 91160</acc:number>
+<acc:numbernextweek>JURY DUTY NEXT WEEK 91160</acc:numbernextweek>
+</acc:account>
+<acc:account employee="UNION" xmlns:acc="account.xsd">
+<acc:number>MEDICAL 91180</acc:number>
+<acc:numbernextweek>MEDICAL NEXT WEEK 91180</acc:numbernextweek>
+</acc:account>
+<acc:account employee="UNION" xmlns:acc="account.xsd">
+<acc:number>MILITARY PAY 91162</acc:number>
+<acc:numbernextweek>MILITARY PAY NEXT WEEK 91162</acc:numbernextweek>
+</acc:account>
+<acc:account employee="UNION" xmlns:acc="account.xsd">
+<acc:number>OTHER LOST TIME 91170</acc:number>
+<acc:numbernextweek>OTHER LOST TIME NEXT WEEK 91170</acc:numbernextweek>
+</acc:account>
+<acc:account employee="UNION" xmlns:acc="account.xsd">
+<acc:number>PERSONAL PAID 91110</acc:number>
+<acc:numbernextweek>PERSONAL PD NEXT WEEK 91110</acc:numbernextweek>
+</acc:account>
+<acc:account employee="UNION" xmlns:acc="account.xsd">
+<acc:number>SICK 91100</acc:number>
+<acc:numbernextweek>SICK NEXT WEEK 91100</acc:numbernextweek>
+</acc:account>
+<acc:account employee="UNION" xmlns:acc="account.xsd">
+<acc:number>TARDINESS 91140</acc:number>
+<acc:numbernextweek>TARDINESS NEXT WEEK 91140</acc:numbernextweek>
+</acc:account>
+<acc:account employee="UNION" xmlns:acc="account.xsd">
+<acc:number>UNALLOW LABOR 9010X</acc:number>
+<acc:numbernextweek>UNALLOW LAB NEXT WEEK 9010X</acc:numbernextweek>
+</acc:account>
+<acc:account employee="UNION" xmlns:acc="account.xsd">
+<acc:number>UNION BUSINESS 90150</acc:number>
+<acc:numbernextweek>UNION BUS NEXT WEEK 90150</acc:numbernextweek>
+</acc:account>
+<acc:account employee="UNION" xmlns:acc="account.xsd">
+<acc:number>UNION BUSINESS FLEX TIME 90150</acc:number>
+<acc:numbernextweek>UNION BUSINESS NEXT WEEK FLEX TIME 90150</acc:numbernextweek>
+</acc:account>
+<acc:account employee="UNION" xmlns:acc="account.xsd">
+<acc:number>UNPD DISCIPLINE SUSP 92175</acc:number>
+<acc:numbernextweek>UNPD DISCIPLINE SUSP NEXT WEEK 92175</acc:numbernextweek>
+</acc:account>
+<acc:account employee="UNION" xmlns:acc="account.xsd">
+<acc:number>UNPD ILLNESS FAMILY 92155</acc:number>
+<acc:numbernextweek>UNPD ILLNESS FAMILY 92155 NEXT WEEK</acc:numbernextweek>
+</acc:account>
+<acc:account employee="UNION" xmlns:acc="account.xsd">
+<acc:number>UNPD ILLNESS INJURY 92150</acc:number>
+<acc:numbernextweek>UNPD ILLNESS INJURY 92150 NEXT WEEK</acc:numbernextweek>
+</acc:account>
+<acc:account employee="UNION" xmlns:acc="account.xsd">
+<acc:number>UNPD LOA 92105</acc:number>
+<acc:numbernextweek>UNPD LOA NEXT WEEK 92105</acc:numbernextweek>
+</acc:account>
+<acc:account employee="UNION" xmlns:acc="account.xsd">
+<acc:number>UNPD NEW HIRE TERM SEP 92100</acc:number>
+<acc:numbernextweek>UNPD NEW HIRE TERM SEP 92100</acc:numbernextweek>
+</acc:account>
+<acc:account employee="UNION" xmlns:acc="account.xsd">
+<acc:number>UNPD OTHER LOST TIME 92170</acc:number>
+<acc:numbernextweek>UNPD OTHER LOST TIME NEXT WEEK 92170</acc:numbernextweek>
+</acc:account>
+<acc:account employee="UNION" xmlns:acc="account.xsd">
+<acc:number>UNPD PERSONAL 92110</acc:number>
+<acc:numbernextweek>UNPD PERSONAL 92110</acc:numbernextweek>
+</acc:account>
+<acc:account employee="UNION" xmlns:acc="account.xsd">
+<acc:number>UNPD SALARY UNION BUSINESS 92160</acc:number>
+<acc:numbernextweek>UNPD SAL UNION BUS NEXT WEEK 92160</acc:numbernextweek>
+</acc:account>
+<acc:account employee="UNION" xmlns:acc="account.xsd">
+<acc:number>UNPD TARDINESS 92140</acc:number>
+<acc:numbernextweek>UNPD TARDINESS 92140</acc:numbernextweek>
+</acc:account>
+<acc:account employee="UNION" xmlns:acc="account.xsd">
+<acc:number>VACATION 91130</acc:number>
+<acc:numbernextweek>VACATION NEXT WEEK 91130</acc:numbernextweek>
+</acc:account>
+<acc:account employee="UNION" xmlns:acc="account.xsd">
+<acc:number>BU SCHEDULED SHORT WORK WEEK 91195</acc:number>
+<acc:numbernextweek>BU SCHEDULED SHORT WORK WEEK 91195</acc:numbernextweek>
+</acc:account>
+<acc:account employee="UNION" xmlns:acc="account.xsd">
+<acc:number>BU UNSCHEDULED SHORT WORK WEEK 91191</acc:number>
+<acc:numbernextweek>BU UNSCHEDULED SHORT WORK WEEK 91191</acc:numbernextweek>
+</acc:account>
+<acc:account employee="CONTRACTOR" xmlns:acc="account.xsd">
+<acc:number>COMM ACTIVITY 90140</acc:number>
+<acc:numbernextweek>COMM ACTIVITY NEXT WEEK 90140</acc:numbernextweek>
+</acc:account>
+<acc:account employee="CONTRACTOR" xmlns:acc="account.xsd">
+<acc:number>CONTRACT LABOR PAID LOST TIME</acc:number>
+<acc:numbernextweek>CONTRACT LABOR PAID LOST TIME NEXT WEEK 91175</acc:numbernextweek>
+</acc:account>
+<acc:account employee="CONTRACTOR" xmlns:acc="account.xsd">
+<acc:number>DCI 90120</acc:number>
+<acc:numbernextweek>DCI NEXT WEEK 90120</acc:numbernextweek>
+</acc:account>
+<acc:account employee="CONTRACTOR" xmlns:acc="account.xsd">
+<acc:number>EXPN CONTL 90474</acc:number>
+<acc:numbernextweek>EXPN CONTL NEXT WEEK 90474</acc:numbernextweek>
+</acc:account>
+<acc:account employee="CONTRACTOR" xmlns:acc="account.xsd">
+<acc:number>EXPN CONTL UNALLOW 9047X</acc:number>
+<acc:numbernextweek>EXPN CONTL UNALLOW NEXT WEEK 9047X</acc:numbernextweek>
+</acc:account>
+<acc:account employee="CONTRACTOR" xmlns:acc="account.xsd">
+<acc:number>INDIRECT 90100</acc:number>
+<acc:numbernextweek>INDIRECT NEXT WEEK 90100</acc:numbernextweek>
+</acc:account>
+<acc:account employee="CONTRACTOR" xmlns:acc="account.xsd">
+<acc:number>INDIRECT SHIFT 2 90100</acc:number>
+<acc:numbernextweek>INDIRECT SHIFT 2 NEXT WEEK 90100</acc:numbernextweek>
+</acc:account>
+<acc:account employee="CONTRACTOR" xmlns:acc="account.xsd">
+<acc:number>INDIRECT SHIFT 3 90100</acc:number>
+<acc:numbernextweek>INDIRECT SHIFT 3 NEXT WEEK 90100</acc:numbernextweek>
+</acc:account>
+<acc:account employee="CONTRACTOR" xmlns:acc="account.xsd">
+<acc:number>UNALLOW LABOR 9010X</acc:number>
+<acc:numbernextweek>UNALLOW LABOR NEXT WEEK 9010X</acc:numbernextweek>
+</acc:account>
+<acc:account employee="CONTRACTOR" xmlns:acc="account.xsd">
+<acc:number>UNPD OTHER LOST TIME 92170</acc:number>
+<acc:numbernextweek>UNPD OTHER LOST TIME NEXT WEEK 92170</acc:numbernextweek>
+</acc:account>
+</wd:accounts>
+<wd:description>Indirect work order</wd:description>
+</wd:workdirective>
+</wd:workdirectives>
